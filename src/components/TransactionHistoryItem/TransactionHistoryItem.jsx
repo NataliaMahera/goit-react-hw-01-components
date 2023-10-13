@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import css from './TransactionHistoryItem.module.css';
 
 export const TransactionHistoryItem = ({ id, type, amount, currency }) => {
@@ -11,11 +10,4 @@ export const TransactionHistoryItem = ({ id, type, amount, currency }) => {
       </tr>
     </tbody>
   );
-};
-
-TransactionHistoryItem.propTypes = {
-  id: PropTypes.string,
-  type: PropTypes.string.isRequired,
-  amount: PropTypes.string.isRequired,
-  currency: PropTypes.string.isRequired,
 };
