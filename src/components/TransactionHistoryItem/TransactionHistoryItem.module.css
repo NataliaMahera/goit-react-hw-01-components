@@ -1,0 +1,14 @@
+.headContainer:nth-child(even) {
+    background-color: #e5e7eb;
+}
+
+.headContainer:hover {
+     background-color:#c9ccd1;
+}
+
+.head {
+    border: 1px solid #c9ccd1;
+    padding: 12px;
+    text-align: center; 
+    text-transform: capitalize;
+} 

@@ -1,0 +1,18 @@
+.transactionHistory {
+    border-collapse: collapse;
+    width: 800px; 
+    margin: 100px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.head {
+    font-size: 17px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #199bbb;
+    color: white;
+    text-transform: uppercase;
+}
