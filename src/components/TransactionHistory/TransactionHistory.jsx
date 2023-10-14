@@ -1,4 +1,4 @@
-import { TransactionHistoryItem } from '../TransactionHistoryItem/TransactionHistoryItem';
+import { TransactionHistoryItem } from './TransactionHistoryItem';
 import PropTypes from 'prop-types';
 import css from './TransactionHistory.module.css';
 
